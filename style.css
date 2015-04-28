@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*  
+Theme Name: Curtiss Theme
+Description: This is a theme your mom would be responsive to.
+Version: 1.0
+Author: Curtiss Melvin
+Author URI: http://www.curtissmelvin.com/web170/
+*/
+	*{
+		margin:0;
+		padding:0;
+}
+
+#wrapper {
+	width:940px;
+	margin:auto;
+	overflow:hidden;
+}
+
+body {
+	padding:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:100%;
+	color:white;
+	background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(50%,rgba(41,137,216,1)), color-stop(51%,rgba(32,124,202,1)), color-stop(100%,rgba(125,185,232,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); 
+}
+
+h2{
+	color:#2BF1F4;
+}
+
+h1{
+	font:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+
+ul{
+	list-style-type: none;
+	margin-left: 0;
+	margin-bottom: 20px;
+}
+
+a{
+	color:#5AE817; /* dark grey */ 
+}
+
+a:hover,
+a:focus{
+	color: #DBA900; /* dark gold */
+}
+
+#mainSection{
+	width:680px;
+	border:solid white 10px; /*white border*/
+	border-radius:5px;
+	color:#2BD71E;
+	padding:inherit;
+	margin:40px;
+}
+
+footer{
+	padding-left:330px;
+}
+
+
+
