@@ -1,0 +1,22 @@
+<aside id="contact-sidebar" class="asideleft">
+
+ <?php if (is_active_sidebar ('contact')): ?>
+ 
+<?php dynamic_sidebar('contact'); ?>
+
+<?php else : ?>
+
+<h2></h2>
+<br />
+<h3>Get In Touch</h3>
+
+<p>Call us today to schedule your free consultation and estimate.</p>
+<ul.1>
+    <li>Divven Browne | 206.851.5260 | divven@nwdesign.com</li>
+     <li>Nathan Werner | 206.992.6007 | nathan@nwdesign.com</li>
+     <li>2121 8th Ave, Seattle, WA 98121</li>
+</ul.1>
+
+<?php endif; ?>
+</aside>
+
